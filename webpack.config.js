@@ -4,7 +4,7 @@ module.exports = {
   entry: './assets/index.js',
   output: {
     filename: 'index-bundle.js',
-    path: path.resolve(__dirname, '../static/covid-poc'),
+    path: path.resolve(__dirname, '../static/custom-dashboard-poc'),
   },
   module: {
     rules: [
